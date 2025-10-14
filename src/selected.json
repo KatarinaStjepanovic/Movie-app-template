@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "The Shawshank Redemption",
+    "producers": ["Niki Marvin"],
+    "time": "02:22",
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "stars": 9.3,
+    "wallpaper_url": "https://images8.alphacoders.com/470/thumb-1920-470871.jpg"
+  },
+  {
+    "id": 2,
+    "name": "The Godfather",
+    "producers": ["Albert S. Ruddy"],
+    "time": "02:55",
+    "description": "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son.",
+    "stars": 9.2,
+    "wallpaper_url": "https://w0.peakpx.com/wallpaper/539/171/HD-wallpaper-the-godfather.jpg"
+  },
+  {
+    "id": 3,
+    "name": "The Dark Knight",
+    "producers": ["Emma Thomas", "Charles Roven", "Christopher Nolan"],
+    "time": "02:32",
+    "description": "Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice when the Joker wreaks havoc on Gotham.",
+    "stars": 9.0,
+    "wallpaper_url": "https://wallpapers.com/images/featured/the-dark-knight-jlyjxakv2mz57z02.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Pulp Fiction",
+    "producers": ["Lawrence Bender"],
+    "time": "02:34",
+    "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in tales of violence and redemption.",
+    "stars": 8.9,
+    "wallpaper_url": "https://images8.alphacoders.com/499/499674.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Inception",
+    "producers": ["Emma Thomas", "Christopher Nolan"],
+    "time": "02:28",
+    "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea.",
+    "stars": 8.8,
+    "wallpaper_url": "https://images7.alphacoders.com/833/833508.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Fight Club",
+    "producers": ["Art Linson", "Ceán Chaffin", "Ross Grayson Bell"],
+    "time": "02:19",
+    "description": "An insomniac office worker and a soap maker form an underground fight club that evolves into something much more.",
+    "stars": 8.8,
+    "wallpaper_url": "https://cdn.wallpapersafari.com/65/48/dPygtF.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Forrest Gump",
+    "producers": ["Wendy Finerman", "Steve Starkey", "Steve Tisch"],
+    "time": "02:22",
+    "description": "The presidencies of Kennedy and Johnson, the Vietnam War, and other events unfold through the perspective of an Alabama man with a low IQ.",
+    "stars": 8.8,
+    "wallpaper_url": "https://cdn.wallpapersafari.com/86/1/h207Bk.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Interstellar",
+    "producers": ["Emma Thomas", "Christopher Nolan", "Lynda Obst"],
+    "time": "02:49",
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "stars": 8.7,
+    "wallpaper_url": "https://images8.alphacoders.com/560/thumb-1920-560736.jpg"
+  },
+  {
+    "id": 9,
+    "name": "The Matrix",
+    "producers": ["Joel Silver"],
+    "time": "02:16",
+    "description": "A computer hacker learns about the true nature of his reality and his role in the war against its controllers.",
+    "stars": 8.7,
+    "wallpaper_url": "https://wallup.net/wp-content/uploads/2016/03/09/53604-movies-The_Matrix-748x421.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Gladiator",
+    "producers": ["Douglas Wick", "David Franzoni", "Branko Lustig"],
+    "time": "02:35",
+    "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+    "stars": 8.5,
+    "wallpaper_url": "https://wallup.net/wp-content/uploads/2016/12/08/150317-movies-Gladiator_movie-748x420.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Avengers: Endgame",
+    "producers": ["Kevin Feige"],
+    "time": "03:01",
+    "description": "After the devastating events of Infinity War, the Avengers assemble once more to reverse Thanos' actions and restore balance to the universe.",
+    "stars": 8.4,
+    "wallpaper_url": "https://wallpapers.com/images/hd/avengers-endgame-fantasy-m8fbpfs2m580r7l3.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Spider-Man: No Way Home",
+    "producers": ["Chris McKenna", "Erik Sommers", "Stan Lee"],
+    "time": "02:34",
+    "description": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear.",
+    "stars": 7.5,
+    "wallpaper_url": "https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABSupDUyOmqxuXJNdzbLSCVdHpDn_wrLRKVkQqmrHVk76c_fhPO1OLt2abpbgvlZFJk728Y_U_NGaZnl5grt-0m2_OgCLnq4KiYtd.jpg?r=12d"
+  },
+  {
+    "id": 13,
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "producers": ["Barrie M. Osborne", "Peter Jackson", "Fran Walsh"],
+    "time": "02:58",
+    "description": "A meek Hobbit and eight companions set out on a journey to destroy a powerful ring and save Middle-earth.",
+    "stars": 8.8,
+    "wallpaper_url": "https://cdn.wallpapersafari.com/81/67/bixPOa.jpg"
+  },
+  {
+    "id": 14,
+    "name": "The Lord of the Rings: The Return of the King",
+    "producers": ["Barrie M. Osborne", "Peter Jackson", "Fran Walsh"],
+    "time": "03:21",
+    "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom.",
+    "stars": 9.0,
+    "wallpaper_url": "https://images7.alphacoders.com/112/thumb-1920-1123161.jpg"
+  },
+  {
+    "id": 15,
+    "name": "The Lion King",
+    "producers": ["Don Hahn"],
+    "time": "01:28",
+    "description": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+    "stars": 8.5,
+    "wallpaper_url": "https://w0.peakpx.com/wallpaper/949/899/HD-wallpaper-movie-mufasa-the-lion-king-simba-the-lion-king-2019.jpg"
+  },
+  {
+    "id": 16,
+    "name": "The Silence of the Lambs",
+    "producers": ["Kenneth Utt", "Edward Saxon", "Ron Bozman"],
+    "time": "01:58",
+    "description": "A young F.B.I. cadet must confide in an incarcerated and manipulative killer to catch another serial killer.",
+    "stars": 8.6,
+    "wallpaper_url": "https://cdn.wallpapersafari.com/56/65/pKcHoA.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Saving Private Ryan",
+    "producers": ["Steven Spielberg", "Ian Bryce", "Mark Gordon", "Gary Levinsohn"],
+    "time": "02:49",
+    "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed.",
+    "stars": 8.6,
+    "wallpaper_url": "https://media.outnow.ch/Movies/Bilder/1998/SavingPrivateRyan/wallpapers.fs/02.jpg"
+  },
+  {
+    "id": 18,
+    "name": "The Social Network",
+    "producers": ["Scott Rudin", "Dana Brunetti", "Michael De Luca", "Ceán Chaffin"],
+    "time": "02:00",
+    "description": "The story of how Harvard student Mark Zuckerberg created Facebook and faced legal and personal consequences.",
+    "stars": 7.8,
+    "wallpaper_url": "https://wallpapercave.com/wp/wp5959638.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Parasite",
+    "producers": ["Kwak Sin-ae", "Bong Joon Ho"],
+    "time": "02:12",
+    "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+    "stars": 8.6,
+    "wallpaper_url": "https://w0.peakpx.com/wallpaper/559/369/HD-wallpaper-parasite-movie-poster.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Oppenheimer",
+    "producers": ["Emma Thomas", "Charles Roven", "Christopher Nolan"],
+    "time": "03:00",
+    "description": "The story of J. Robert Oppenheimer, the theoretical physicist behind the development of the atomic bomb.",
+    "stars": 8.4,
+    "wallpaper_url": "https://cdn.wallpapersafari.com/85/7/cE5RUY.jpg"
+  }
+]
