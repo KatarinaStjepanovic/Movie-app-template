@@ -5,8 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 
-/* check if button is active or more is hovered, maybe with refs?? and if it is return */
-
 function MainPage() {
   const [mainData, setMainData] = useState([]);
   const [showed, setShowed] = useState({});
@@ -22,9 +20,7 @@ function MainPage() {
     fetch("./selected.json")
       .then((response) => response.json())
       .then((data) => {
-        console.log(data[0]);
         setMainData(data);
-        console.log(random());
         setShowed(data[random()]);
       });
   }, []);
