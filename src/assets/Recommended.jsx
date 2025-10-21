@@ -1,26 +1,54 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import Movie from "./Movie";
+import Loader from "./Loader";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faMagnifyingGlass,
   faChevronLeft,
+  faChevronDown,
+  faX,
 } from "@fortawesome/free-solid-svg-icons";
 
 function Recommended({ movies }) {
   const [currentPage, setPage] = useState(1);
   const [numberOf, setNumber] = useState(0);
   const [showed, setShowed] = useState([]);
+  const [loading, setLoading] = useState(false);
   const [input, setInput] = useState({
     search: "",
     year: "",
+    category: "No Filter",
   });
 
   useEffect(() => {
     setShowed(movies);
     setNumber(Math.ceil(movies?.length / 10));
   }, [movies]);
+
+  useEffect(() => {
+    let filtered = 0;
+    filtered = movies.filter((m) => {
+      return m.name.toLowerCase().includes(input.search.toLowerCase());
+    });
+
+    console.log(filtered);
+    if (input.category != "No Filter") {
+      filtered = filtered.filter((m) => m.type === input.category);
+    }
+    console.log(filtered);
+
+    if (input.year.length === 4) {
+      filtered = filtered.filter((m) => {
+        return m.year == input.year;
+      });
+    }
+
+    setNumber(Math.ceil(filtered.length / 10));
+    setShowed(filtered);
+    setPage(1);
+  }, [input]);
 
   const handleChange = (e) => {
     const { value, name } = e.target;
@@ -29,30 +57,6 @@ function Recommended({ movies }) {
       newObj[name] = value;
       return newObj;
     });
-    if (name === "search") {
-      /*change search */
-      setShowed((prev) => {
-        const newArr = movies.filter((m) =>
-          m.name.toLowerCase().includes(value.toLowerCase())
-        );
-        setNumber(Math.ceil(newArr?.length / 10));
-        return newArr;
-      });
-    } else if (name === "year") {
-      const filtered = movies.filter((m) => m.year == value);
-      setShowed((prev) => {
-          const newArr = filtered;
-          setNumber(Math.ceil(newArr?.length / 10));
-          return newArr;
-        });
-     if(value.length >= 4 && !filtered.length){
-          setNumber(0);
-      }
-      else {
-      setShowed(movies);
-       setNumber(Math.ceil(movies?.length / 10));
-    }
-    } 
   };
 
   const nextPage = () => {
@@ -65,6 +69,29 @@ function Recommended({ movies }) {
     setPage((prev) => {
       return prev - 1 >= 1 ? prev - 1 : prev;
     });
+  };
+
+  const clickX = (event) => {
+      setInput((prev) => {
+        const newObj = JSON.parse(JSON.stringify(prev));
+        newObj.category = "No Filter";
+        return newObj;
+      });
+
+      event.stopPropagation();
+  };
+
+  const changeCat = (name) => {
+    setLoading(true);
+    setTimeout(() => {
+      setInput((prev) => {
+        const newObj = JSON.parse(JSON.stringify(prev));
+        newObj.category = name;
+        console.log(newObj);
+        return newObj;
+      });
+      setLoading(false);
+    }, 1600);
   };
 
   return (
@@ -82,11 +109,15 @@ function Recommended({ movies }) {
         No Recommended Movies / Series
       </div>
       <div className="recAll">
-        {showed.map((movie, id) => {
-          if (id >= (currentPage - 1) * 10 && id < currentPage * 10) {
-            return <Movie movie={movie} key={id} />;
-          }
-        })}
+        {loading ? (
+          <Loader />
+        ) : (
+          showed.map((movie, id) => {
+            if (id >= (currentPage - 1) * 10 && id < currentPage * 10) {
+              return <Movie movie={movie} key={id} />;
+            }
+          })
+        )}
       </div>
       <div className="yrDiv">
         <div className="yrTitle">Year:</div>
@@ -98,6 +129,47 @@ function Recommended({ movies }) {
           onChange={handleChange}
           value={input.year}
         />
+      </div>
+      <div className="catInput">
+        Category <FontAwesomeIcon icon={faChevronDown} className="dropIcon" />
+        <div className="dropDown">
+          <div
+            className="dropCat"
+            onClick={() => changeCat("Movies")}
+            style={{
+              backgroundColor:
+                input.category === "Movies" && "var(--dark-gray)",
+            }}
+          >
+            Movies{" "}
+            <FontAwesomeIcon
+              icon={faX}
+              style={{
+                display: input.category === "Movies" ? "block" : "none",
+              }}
+              className="x"
+              onClick={clickX}
+            />
+          </div>
+          <div
+            className="dropCat"
+            onClick={() => changeCat("Series")}
+            style={{
+              backgroundColor:
+                input.category === "Series" && "var(--dark-gray)",
+            }}
+          >
+            Series{" "}
+            <FontAwesomeIcon
+              icon={faX}
+              style={{
+                display: input.category === "Series" ? "block" : "none",
+              }}
+              className="x"
+              onClick={clickX}
+            />
+          </div>
+        </div>
       </div>
       <div className="buttons" style={{ display: !numberOf && "none" }}>
         <div className="buttonLeft" onClick={prevPage}>
@@ -122,7 +194,6 @@ function Recommended({ movies }) {
           {currentPage + 1}
         </div>
         <div className="dots">
-          {" "}
           . . . <div className="numberOf">{numberOf}</div>
         </div>
       </div>

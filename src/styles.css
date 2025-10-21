@@ -1,4 +1,4 @@
-:root{
+:root {
     --dark-gray: #21222E;
     --light-blue: #505168;
     --gray: #41424F;
@@ -6,13 +6,14 @@
     --stars: #2B2C3E;
 }
 
-body{
+body {
     margin: 0;
     font-family: "Inter";
     background: linear-gradient(0.75turn, #21222E, #53545F);
+    overflow-x: hidden;
 }
 
-.KS{
+.KS {
     position: fixed;
     right: 5%;
     color: white;
@@ -22,7 +23,7 @@ body{
     z-index: 9999;
 }
 
-.imageDiv{
+.imageDiv {
     height: 100%;
     display: flex;
     align-items: center;
@@ -36,17 +37,20 @@ body{
 }
 
 @keyframes opacityChange {
-    0%{
+    0% {
         opacity: 1;
     }
-    50%{
+
+    50% {
         opacity: 0.5;
-    }100%{
+    }
+
+    100% {
         opacity: 0;
     }
 }
 
-.blurredDiv{
+.blurredDiv {
     height: 85%;
     width: 80%;
     z-index: 999;
@@ -55,17 +59,17 @@ body{
     border-radius: 50px;
     border: 5px solid #D9D9D9;
     animation: opacityChange 5s ease-in linear repeat;
-        position: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.mainDiv{
+.mainDiv {
     position: absolute;
     top: 50%;
     left: 50%;
-     height: 85%;
+    height: 85%;
     width: 80%;
     transform: translate(-50%, -50%);
     border: 5px solid var(--dark-gray);
@@ -73,16 +77,17 @@ body{
     z-index: 999;
 }
 
-.mainTitle{
+.mainTitle {
     color: var(--dark-gray);
     font-weight: bold;
     position: absolute;
     left: 8%;
     font-size: 35px;
     top: 25%;
-    width: fit-content ;
+    width: fit-content;
 }
-.mainTitle::after{
+
+.mainTitle::after {
     content: "";
     background-color: var(--dark-gray);
     width: 120%;
@@ -93,7 +98,7 @@ body{
 
 }
 
-.mainProducers{
+.mainProducers {
     position: absolute;
     top: 35%;
     left: 8%;
@@ -103,14 +108,14 @@ body{
     font-weight: 450;
 }
 
-.mainClock{
+.mainClock {
     position: absolute;
-     top: 40%;
+    top: 40%;
     left: 8%;
     color: var(--gray);
 }
 
-.mainDesc{
+.mainDesc {
     position: absolute;
     top: 65%;
     left: 8%;
@@ -121,7 +126,7 @@ body{
 
 }
 
-.mainWatch{
+.mainWatch {
     position: absolute;
     left: 8%;
     top: 80%;
@@ -135,31 +140,31 @@ body{
     font-weight: 500;
 }
 
-.mainWatch:hover{
-  border: 2px solid var(--text-color);
-  background-color: transparent;
-  scale:    1.1;
-  color: var(--text-color);
-  cursor: pointer;
+.mainWatch:hover {
+    border: 2px solid var(--text-color);
+    background-color: transparent;
+    scale: 1.1;
+    color: var(--text-color);
+    cursor: pointer;
 }
 
-.mainMore{
+.mainMore {
     position: absolute;
     top: 83%;
     left: 28%;
     color: var(--dark-gray);
     font-size: 18px;
-    font-weight: 500 ;
+    font-weight: 500;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
 }
 
-.mainMore:hover{
+.mainMore:hover {
     scale: 1.1;
     letter-spacing: 1px;
 }
 
-.mainStar{
+.mainStar {
     color: var(--stars);
     font-size: 20px;
     position: absolute;
@@ -167,12 +172,12 @@ body{
     right: 5%;
 }
 
-.recDiv{
-  height: 100vh;
-  position: relative;
+.recDiv {
+    height: 100vh;
+    position: relative;
 }
 
-.recommendedTitle{
+.recommendedTitle {
     position: relative;
     color: #BABBCC;
     top: 10%;
@@ -183,7 +188,7 @@ body{
     letter-spacing: 2px;
 }
 
-.recommendedTitle::after{
+.recommendedTitle::after {
     content: "";
     width: 260px;
     height: 2px;
@@ -194,7 +199,7 @@ body{
 
 }
 
-.search{
+.search {
     background: transparent;
     border: 2px solid rgb(179, 178, 178);
     color: white;
@@ -208,16 +213,16 @@ body{
     padding-left: 30px;
 }
 
-.searchTitle{
-  color:  rgb(179, 178, 178);
-  position: absolute;
-  top: 12%;
-  opacity: 0.2;
-  font-weight: 300;
-  right: 20%;
+.searchTitle {
+    color: rgb(179, 178, 178);
+    position: absolute;
+    top: 12%;
+    opacity: 0.2;
+    font-weight: 300;
+    right: 20%;
 }
 
-.glass{
+.glass {
     position: absolute;
     top: 15.5%;
     right: 21.5%;
@@ -225,7 +230,7 @@ body{
     color: rgb(179, 178, 178);
 }
 
-.recAll{
+.recAll {
     position: relative;
     top: 52%;
     left: 50%;
@@ -238,7 +243,7 @@ body{
     padding-left: 2%;
 }
 
-.movieDiv{
+.movieDiv {
     position: relative;
     height: 80%;
     width: 80%;
@@ -248,7 +253,7 @@ body{
     transition: all 0.5s ease-in-out;
 }
 
-.buttons{
+.buttons {
     position: relative;
     top: 22%;
     width: 8%;
@@ -262,7 +267,7 @@ body{
 }
 
 
-.buttonLeft{
+.buttonLeft {
     background-color: white;
     color: #21222E;
     border-radius: 50%;
@@ -275,21 +280,21 @@ body{
     cursor: pointer;
 }
 
-.backPage{
+.backPage {
     position: absolute;
     opacity: 0;
     font-size: 18px;
 }
 
-.buttonLeft:hover .backPage{
+.buttonLeft:hover .backPage {
     opacity: 1;
 }
 
-.buttonLeft:hover .currPage{
-   color: white;
+.buttonLeft:hover .currPage {
+    color: white;
 }
 
-.buttonRight{
+.buttonRight {
     background-color: transparent;
     border: 2px solid white;
     color: white;
@@ -303,7 +308,7 @@ body{
     cursor: pointer;
 }
 
-.movieImg{
+.movieImg {
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -312,7 +317,7 @@ body{
 
 }
 
-.movieDesc{
+.movieDesc {
     opacity: 0;
     position: absolute;
     top: 40%;
@@ -324,7 +329,7 @@ body{
 
 }
 
-.movieTitle{
+.movieTitle {
     position: absolute;
     top: 30%;
     opacity: 0;
@@ -336,7 +341,7 @@ body{
 
 }
 
-.movieStars{
+.movieStars {
     position: absolute;
     top: 85%;
     font-size: 15px;
@@ -346,21 +351,23 @@ body{
 
 }
 
-.movieIcon{
+.movieIcon {
     margin-right: 5px;
     transition: all 0.5s ease-in-out;
 }
 
-.movieDiv:hover .movieImg{
-  cursor: pointer;
-  filter: blur(5px);
+.movieDiv:hover .movieImg {
+    cursor: pointer;
+    filter: blur(5px);
 }
 
-.movieDiv:hover .movieTitle, .movieDiv:hover .movieDesc,.movieDiv:hover .movieStars{
+.movieDiv:hover .movieTitle,
+.movieDiv:hover .movieDesc,
+.movieDiv:hover .movieStars {
     opacity: 1;
 }
 
-.movieNext{
+.movieNext {
     position: absolute;
     right: 0;
     top: 50%;
@@ -369,56 +376,148 @@ body{
     transform: translateY(-50%);
 }
 
-.dots{
+.dots {
     position: absolute;
     right: -15%;
     color: white;
     top: -10%;
 }
 
-.numberOf{
-   position: absolute;
-   right: -80%; 
-   top: 50%;
-   opacity: 0.6;
+.numberOf {
+    position: absolute;
+    right: -80%;
+    top: 50%;
+    opacity: 0.6;
 }
 
-.noMovies{
+.noMovies {
     position: absolute;
     color: white;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     font-size: 30px;
 }
 
-.yrDiv{
+.yrDiv {
     position: absolute;
     display: flex;
     top: 90%;
     left: 10%;
 }
 
-.yrTitle{
+.yrTitle {
     color: white;
     opacity: 0.5;
 }
 
-.yrInput{
+.yrInput {
     background-color: transparent;
     outline: none;
     width: 30%;
     text-align: center;
-    margin-left: 10px ;
+    margin-left: 10px;
     border-radius: 20px;
     border: 2px solid rgb(186, 184, 184);
-    color:  rgb(186, 184, 184);
+    color: rgb(186, 184, 184);
     padding: 2px 10px;
 }
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
+.catInput {
+    position: absolute;
+    right: 15%;
+    top: 90%;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: 600;
+    min-width: 80px;
+}
+
+.dropDown {
+    display: none;
+    font-weight: 300;
+}
+
+.catInput:hover .dropDown {
+    display: block;
+}
+
+.dropCat {
+    padding: 5px;
+    display: flex;
+    transition: all 0.5s ease-in-out;
+}
+
+.dropCat:hover {
+    background-color: var(--light-blue);
+}
+
+.dropIcon {
+    color: white;
+}
+
+.x {
+    position: absolute;
+    right: 5%;
+    font-size: 15px;
+}
+
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    aspect-ratio: 1;
+    background:
+        linear-gradient(var(--dark-gray) 0 0),
+        linear-gradient(var(--dark-gray) 0 0),
+        linear-gradient(var(--dark-gray) 0 0),
+        linear-gradient(var(--dark-gray) 0 0),
+        linear-gradient(white 0 0),
+        linear-gradient(white 0 0),
+        linear-gradient(var(--gray) 0 0),
+        linear-gradient(var(--gray) 0 0);
+    background-size: 25% 25%, 25% 25%, 25% 25%, 25% 25%, 25% 50%, 25% 50%, 50% 25%, 50% 25%;
+    background-repeat: no-repeat;
+    animation: l20 1.5s infinite alternate;
+}
+
+@keyframes l20 {
+
+    0%,
+    10% {
+        background-position:
+            calc(1*100%/3) calc(1*100%/3), calc(2*100%/3) calc(1*100%/3), calc(1*100%/3) calc(2*100%/3), calc(2*100%/3) calc(2*100%/3),
+            calc(1*100%/3) 50%, calc(2*100%/3) 50%, 50% calc(1*100%/3), 50% calc(2*100%/3)
+    }
+
+    33% {
+        background-position:
+            calc(0*100%/3) calc(0*100%/3), calc(3*100%/3) calc(0*100%/3), calc(0*100%/3) calc(3*100%/3), calc(3*100%/3) calc(3*100%/3),
+            calc(1*100%/3) 50%, calc(2*100%/3) 50%, 50% calc(1*100%/3), 50% calc(2*100%/3)
+    }
+
+    66% {
+        background-position:
+            calc(0*100%/3) calc(0*100%/3), calc(3*100%/3) calc(0*100%/3), calc(0*100%/3) calc(3*100%/3), calc(3*100%/3) calc(3*100%/3),
+            calc(0*100%/3) 50%, calc(3*100%/3) 50%, 50% calc(1*100%/3), 50% calc(2*100%/3)
+    }
+
+    90%,
+    100% {
+        background-position:
+            calc(0*100%/3) calc(0*100%/3), calc(3*100%/3) calc(0*100%/3), calc(0*100%/3) calc(3*100%/3), calc(3*100%/3) calc(3*100%/3),
+            calc(0*100%/3) 50%, calc(3*100%/3) 50%, 50% calc(0*100%/3), 50% calc(3*100%/3)
+    }
+}
