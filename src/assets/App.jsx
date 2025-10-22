@@ -3,6 +3,9 @@ import React, { useEffect, useState } from "react";
 import MainPage from "./MainPage";
 import Recommended from "./Recommended";
 import Header from "./Header";
+import Details from "./Details";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   const [movies, setMovies] = useState([]);
@@ -16,11 +19,18 @@ function App() {
   }, []);
 
   return (
-    <>
-      <Header />
-      <MainPage />
-      <Recommended movies = {movies} />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element =  {
+          <>
+          <Header />
+          <MainPage />
+          <Recommended movies={movies} /></> }>
+        </Route>
+        <Route path="/:id" element ={<Details all ={movies}/>}>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

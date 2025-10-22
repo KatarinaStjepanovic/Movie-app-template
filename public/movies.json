@@ -8,7 +8,8 @@
     "type": "Movies",
     "genre": ["sci-fi", "thriller", "action"],
     "year": 2010,
-    "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg"
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+    "long_description": "Dom Cobb, a skilled thief, infiltrates dreams to steal secrets. He faces a complex mission of planting an idea into a mind while confronting his own past."
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "type": "Movies",
     "genre": ["sci-fi", "drama", "adventure"],
     "year": 2014,
-    "poster": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    "poster": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "long_description": "In a dying Earth, Cooper and a team travel through a wormhole to find a new home for humanity, confronting scientific and emotional challenges."
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "type": "Movies",
     "genre": ["action", "crime", "drama"],
     "year": 2008,
-    "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg"
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg",
+    "long_description": "Batman must stop the Joker from plunging Gotham into chaos while confronting his own limits and moral boundaries."
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "type": "Movies",
     "genre": ["crime", "drama"],
     "year": 1972,
-    "poster": "https://m.media-amazon.com/images/I/41CyftqW+4L._AC_UF894,1000_QL80_.jpg"
+    "poster": "https://m.media-amazon.com/images/I/41CyftqW+4L._AC_UF894,1000_QL80_.jpg",
+    "long_description": "The Corleone patriarch hands control to his son Michael, who must navigate loyalty, betrayal, and power in the criminal world."
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "type": "Movies",
     "genre": ["drama", "thriller"],
     "year": 1999,
-    "poster": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "long_description": "An insomniac office worker forms an underground fight club with soap maker Tyler, exploring chaos, identity, and consumer culture."
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "type": "Movies",
     "genre": ["crime", "drama"],
     "year": 1994,
-    "poster": "https://cdn.europosters.eu/image/1300/posters/pulp-fiction-cover-i1288.jpg"
+    "poster": "https://cdn.europosters.eu/image/1300/posters/pulp-fiction-cover-i1288.jpg",
+    "long_description": "Pulp Fiction interweaves the lives of criminals, hitmen, and a boxer in Los Angeles, blending dark humor with crime and redemption stories."
   },
   {
     "id": 7,
@@ -74,7 +80,8 @@
     "type": "Movies",
     "genre": ["drama", "romance"],
     "year": 1994,
-    "poster": "https://cdn11.bigcommerce.com/s-yzgoj/images/stencil/1280x1280/products/2920525/5964222/MOVAJ2095__61756.1679606794.jpg?c=2"
+    "poster": "https://cdn11.bigcommerce.com/s-yzgoj/images/stencil/1280x1280/products/2920525/5964222/MOVAJ2095__61756.1679606794.jpg?c=2",
+    "long_description": "Forrest Gump, a man of simple nature, experiences pivotal historical events and finds love, showing the impact of kindness and destiny."
   },
   {
     "id": 8,
@@ -85,7 +92,8 @@
     "type": "Movies",
     "genre": ["sci-fi", "action"],
     "year": 1999,
-    "poster": "https://m.media-amazon.com/images/I/71PfZFFz9yL._AC_UF894,1000_QL80_.jpg"
+    "poster": "https://m.media-amazon.com/images/I/71PfZFFz9yL._AC_UF894,1000_QL80_.jpg",
+    "long_description": "Neo discovers that the reality he knows is a simulated world controlled by machines, and joins a rebellion to free humanity."
   },
   {
     "id": 9,
@@ -96,7 +104,8 @@
     "type": "Movies",
     "genre": ["action", "drama", "history"],
     "year": 2000,
-    "poster": "https://m.media-amazon.com/images/I/71sj8Yt20qL.jpg"
+    "poster": "https://m.media-amazon.com/images/I/71sj8Yt20qL.jpg",
+    "long_description": "Maximus, a betrayed general, seeks vengeance against a corrupt emperor while fighting as a gladiator in ancient Rome."
   },
   {
     "id": 10,
@@ -107,7 +116,8 @@
     "type": "Movies",
     "genre": ["sci-fi", "adventure"],
     "year": 2009,
-    "poster": "https://m.media-amazon.com/images/I/61OUGpUfAyL._AC_UF894,1000_QL80_.jpg"
+    "poster": "https://m.media-amazon.com/images/I/61OUGpUfAyL._AC_UF894,1000_QL80_.jpg",
+    "long_description": "Jake Sully becomes part of the Na'vi on Pandora, torn between following orders and protecting the alien world he grows to love."
   },
   {
     "id": 11,
@@ -118,7 +128,8 @@
     "type": "Series",
     "genre": ["crime", "drama", "thriller"],
     "year": 2008,
-    "poster": "https://m.media-amazon.com/images/I/51fWOBx3agL._AC_UF894,1000_QL80_.jpg"
+    "poster": "https://m.media-amazon.com/images/I/51fWOBx3agL._AC_UF894,1000_QL80_.jpg",
+    "long_description": "Walter White, a chemistry teacher diagnosed with cancer, starts producing meth to secure his family's future, descending into the criminal underworld."
   },
   {
     "id": 12,
@@ -129,7 +140,8 @@
     "type": "Series",
     "genre": ["fantasy", "drama", "adventure"],
     "year": 2011,
-    "poster": "https://cdn.europosters.eu/image/350/posters/game-of-thrones-season-1-key-art-i161816.jpg"
+    "poster": "https://cdn.europosters.eu/image/350/posters/game-of-thrones-season-1-key-art-i161816.jpg",
+    "long_description": "Power struggles, betrayal, and war define the fight among noble families for the Iron Throne in Westeros."
   },
   {
     "id": 13,
@@ -140,7 +152,8 @@
     "type": "Series",
     "genre": ["sci-fi", "mystery", "drama"],
     "year": 2016,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD3oIidI8rgVi5dxZT8M5lf8wg1pEJpXUTvw&s"
+    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD3oIidI8rgVi5dxZT8M5lf8wg1pEJpXUTvw&s",
+    "long_description": "In Hawkins, Indiana, kids encounter a girl with supernatural powers while facing secret government experiments and otherworldly creatures."
   },
   {
     "id": 14,
@@ -151,7 +164,8 @@
     "type": "Series",
     "genre": ["fantasy", "action", "drama"],
     "year": 2019,
-    "poster": "https://cdn.europosters.eu/image/1300/177456.jpg"
+    "poster": "https://cdn.europosters.eu/image/1300/177456.jpg",
+    "long_description": "Geralt of Rivia navigates a world of monsters, magic, and political intrigue while seeking his destiny."
   },
   {
     "id": 15,
@@ -162,7 +176,8 @@
     "type": "Series",
     "genre": ["crime", "drama", "history"],
     "year": 2013,
-    "poster": "https://cdnb.artstation.com/p/assets/images/images/046/680/003/large/yas-koss-d6ad21138001053-6215214974718.jpg?1645690783"
+    "poster": "https://cdnb.artstation.com/p/assets/images/images/046/680/003/large/yas-koss-d6ad21138001053-6215214974718.jpg?1645690783",
+    "long_description": "The Shelby family builds a criminal empire in post-WWI Birmingham, facing rival gangs, corruption, and personal conflicts."
   },
   {
     "id": 16,
@@ -173,7 +188,8 @@
     "type": "Series",
     "genre": ["comedy", "romance"],
     "year": 1994,
-    "poster": "https://i.pinimg.com/474x/5c/bd/2d/5cbd2d28a410f84536d43e012eab455a.jpg"
+    "poster": "https://i.pinimg.com/474x/5c/bd/2d/5cbd2d28a410f84536d43e012eab455a.jpg",
+    "long_description": "The lives, romances, and comedic misadventures of six friends living in Manhattan unfold over ten seasons."
   },
   {
     "id": 17,
@@ -184,7 +200,8 @@
     "type": "Series",
     "genre": ["comedy"],
     "year": 2005,
-    "poster": "https://m.media-amazon.com/images/I/615MPacH9qL._AC_UF894,1000_QL80_.jpg"
+    "poster": "https://m.media-amazon.com/images/I/615MPacH9qL._AC_UF894,1000_QL80_.jpg",
+    "long_description": "A humorous look at the mundane and absurd lives of employees at Dunder Mifflin paper company through a mockumentary format."
   },
   {
     "id": 18,
@@ -195,7 +212,8 @@
     "type": "Series",
     "genre": ["crime", "mystery", "drama"],
     "year": 2010,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS125VQdlr9k6BhIBtGXdJAyjoOlviGVrAXuQ&s"
+    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS125VQdlr9k6BhIBtGXdJAyjoOlviGVrAXuQ&s",
+    "long_description": "Detective Sherlock Holmes and Dr. Watson solve intricate crimes in modern London while facing personal and intellectual challenges."
   },
   {
     "id": 19,
@@ -206,7 +224,8 @@
     "type": "Series",
     "genre": ["action", "drama", "sci-fi"],
     "year": 2019,
-    "poster": "https://m.media-amazon.com/images/I/81u7-vDBYrL.jpg"
+    "poster": "https://m.media-amazon.com/images/I/81u7-vDBYrL.jpg",
+    "long_description": "Vigilantes expose corrupt superheroes exploiting their powers for profit while navigating moral ambiguity."
   },
   {
     "id": 20,
@@ -217,9 +236,10 @@
     "type": "Series",
     "genre": ["drama", "history"],
     "year": 2019,
-    "poster": "https://m.media-amazon.com/images/I/71LKF6d63FL.jpg"
+    "poster": "https://m.media-amazon.com/images/I/71LKF6d63FL.jpg",
+    "long_description": "The catastrophic nuclear disaster in Chernobyl unfolds, showing the human, political, and environmental consequences."
   },
-   {
+  {
     "id": 21,
     "name": "Dune: Part Two",
     "description": "Paul Atreides unites with the Fremen to exact revenge and fulfill his destiny.",
@@ -228,7 +248,8 @@
     "type": "Movies",
     "genre": ["sci-fi", "adventure", "drama"],
     "year": 2024,
-    "poster": "https://m.media-amazon.com/images/I/81ZMkn8HGBL.jpg"
+    "poster": "https://m.media-amazon.com/images/I/81ZMkn8HGBL.jpg",
+    "long_description": "Paul Atreides joins the Fremen to reclaim Arrakis, leading epic battles and facing political intrigue while embracing his destiny."
   },
   {
     "id": 22,
@@ -239,7 +260,8 @@
     "type": "Movies",
     "genre": ["biography", "drama", "history"],
     "year": 2023,
-    "poster": "https://www.hollywoodreporter.com/wp-content/uploads/2022/07/Oppenheimer-Moviess-Poster-Universal-Publicity-EMBED-2022-.jpg?w=1000"
+    "poster": "https://i5.walmartimages.com/seo/Oppenheimer-Movie-Poster-Glossy-Quality-Paper-No-Frame-Photo-Art-Print-Size-24x36_295e2859-9ea4-4cc4-a9fd-399022714bbf.70ba9b1e257fd3cf9942adbcd2b04b29.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+    "long_description": "A detailed depiction of J. Robert Oppenheimer's life and the moral and scientific challenges during the development of the atomic bomb."
   },
   {
     "id": 23,
@@ -250,7 +272,8 @@
     "type": "Movies",
     "genre": ["comedy", "fantasy", "adventure"],
     "year": 2023,
-    "poster": "https://image.tmdb.org/t/p/original/dekMkQf0kqAmztUca9lX5e5Pjbp.jpg"
+    "poster": "https://image.tmdb.org/t/p/original/dekMkQf0kqAmztUca9lX5e5Pjbp.jpg",
+    "long_description": "Barbie and Ken venture from the vibrant Barbie Land into the real world, experiencing adventures that challenge their understanding of identity and friendship."
   },
   {
     "id": 24,
@@ -261,7 +284,8 @@
     "type": "Movies",
     "genre": ["crime", "drama", "thriller"],
     "year": 2019,
-    "poster": "https://m.media-amazon.com/images/I/51E+o6036kL._AC_UF894,1000_QL80_.jpg"
+    "poster": "https://m.media-amazon.com/images/I/51E+o6036kL._AC_UF894,1000_QL80_.jpg",
+    "long_description": "Arthur Fleck struggles with mental illness and societal neglect, descending into violence and embracing the persona of the Joker."
   },
   {
     "id": 25,
@@ -272,7 +296,8 @@
     "type": "Movies",
     "genre": ["thriller", "drama"],
     "year": 2019,
-    "poster": "https://m.media-amazon.com/images/I/91KArYP03YL._AC_UF894,1000_QL80_.jpg"
+    "poster": "https://m.media-amazon.com/images/I/91KArYP03YL._AC_UF894,1000_QL80_.jpg",
+    "long_description": "The struggling Kim family schemes their way into the lives of the wealthy Parks, leading to tension, deception, and unforeseen tragedy."
   },
   {
     "id": 26,
@@ -283,7 +308,8 @@
     "type": "Movies",
     "genre": ["action", "crime", "mystery"],
     "year": 2022,
-    "poster": "https://m.media-amazon.com/images/I/71HIChNPKFL.jpg"
+    "poster": "https://m.media-amazon.com/images/I/71HIChNPKFL.jpg",
+    "long_description": "Batman uncovers corruption and a string of violent crimes in Gotham while confronting his own moral code and past."
   },
   {
     "id": 27,
@@ -294,7 +320,8 @@
     "type": "Movies",
     "genre": ["sci-fi", "action", "thriller"],
     "year": 2020,
-    "poster": "https://m.media-amazon.com/images/M/MV5BMTU0ZjZlYTUtYzIwMC00ZmQzLWEwZTAtZWFhMWIwYjMxY2I3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTU0ZjZlYTUtYzIwMC00ZmQzLWEwZTAtZWFhMWIwYjMxY2I3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "long_description": "A secret agent navigates time inversion technology to prevent a global disaster, facing paradoxes and high-stakes missions."
   },
   {
     "id": 28,
@@ -305,7 +332,8 @@
     "type": "Movies",
     "genre": ["action", "adventure", "sci-fi"],
     "year": 2021,
-    "poster": "https://images-cdn.ubuy.vn/6351bacfdf4640089c3e6bf2-spider-man-no-way-home-2021-new-Moviess.jpg"
+    "poster": "https://images-cdn.ubuy.vn/6351bacfdf4640089c3e6bf2-spider-man-no-way-home-2021-new-Moviess.jpg",
+    "long_description": "Peter Parker navigates the consequences of revealing his identity, confronting villains from multiple universes and struggling to save reality."
   },
   {
     "id": 29,
@@ -316,7 +344,8 @@
     "type": "Movies",
     "genre": ["action", "comedy", "sci-fi"],
     "year": 2022,
-    "poster": "https://upload.wikimedia.org/wikipedia/en/1/1e/Everything_Everywhere_All_at_Once.jpg"
+    "poster": "https://upload.wikimedia.org/wikipedia/en/1/1e/Everything_Everywhere_All_at_Once.jpg",
+    "long_description": "Evelyn discovers multiple versions of herself across the multiverse, navigating absurd adventures to save existence."
   },
   {
     "id": 30,
@@ -327,7 +356,8 @@
     "type": "Series",
     "genre": ["drama", "horror", "sci-fi"],
     "year": 2023,
-    "poster": "https://i.ebayimg.com/images/g/OIAAAOSwonpjioX0/s-l1200.jpg"
+    "poster": "https://i.ebayimg.com/images/g/OIAAAOSwonpjioX0/s-l1200.jpg",
+    "long_description": "Joel escorts Ellie, a teenage girl immune to a deadly infection, across a ravaged America while forming a profound bond."
   },
   {
     "id": 31,
@@ -338,7 +368,8 @@
     "type": "Series",
     "genre": ["fantasy", "drama", "action"],
     "year": 2022,
-    "poster": "https://m.media-amazon.com/images/M/MV5BM2QzMGVkNjUtN2Y4Yi00ODMwLTg3YzktYzUxYjJlNjFjNDY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    "poster": "https://m.media-amazon.com/images/M/MV5BM2QzMGVkNjUtN2Y4Yi00ODMwLTg3YzktYzUxYjJlNjFjNDY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "long_description": "Follow the Targaryen dynasty centuries before Game of Thrones, exploring political schemes, family rivalry, and the power of dragons."
   },
   {
     "id": 32,
@@ -349,7 +380,8 @@
     "type": "Series",
     "genre": ["fantasy", "comedy", "mystery"],
     "year": 2022,
-    "poster": "https://m.media-amazon.com/images/I/71M8YFEakfL.jpg"
+    "poster": "https://m.media-amazon.com/images/I/71M8YFEakfL.jpg",
+    "long_description": "Wednesday Addams navigates high school life at Nevermore Academy while solving supernatural mysteries and embracing her dark identity."
   },
   {
     "id": 33,
@@ -360,7 +392,8 @@
     "type": "Series",
     "genre": ["thriller", "drama", "action"],
     "year": 2021,
-    "poster": "https://m.media-amazon.com/images/I/7118ecsxO3L._AC_UF894,1000_QL80_.jpg"
+    "poster": "https://m.media-amazon.com/images/I/7118ecsxO3L._AC_UF894,1000_QL80_.jpg",
+    "long_description": "Participants risk their lives in deadly childhood games to win a massive cash prize, exposing desperation and human nature."
   },
   {
     "id": 34,
@@ -371,7 +404,8 @@
     "type": "Series",
     "genre": ["drama"],
     "year": 2019,
-    "poster": "https://m.media-amazon.com/images/M/MV5BZjVlN2M2N2MtOWViZC00MzIxLTlhZWEtMTIwNDIwMzE3ZWJiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    "poster": "https://m.media-amazon.com/images/M/MV5BZjVlN2M2N2MtOWViZC00MzIxLTlhZWEtMTIwNDIwMzE3ZWJiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "long_description": "Teens explore identity, addiction, trauma, and love while facing the challenges of modern adolescence."
   },
   {
     "id": 35,
@@ -382,7 +416,8 @@
     "type": "Series",
     "genre": ["drama"],
     "year": 2020,
-    "poster": "https://m.media-amazon.com/images/M/MV5BMmRlNjQxNWQtMjk1OS00N2QxLTk0YWQtMzRhYjY5YTFhNjMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    "poster": "https://m.media-amazon.com/images/M/MV5BMmRlNjQxNWQtMjk1OS00N2QxLTk0YWQtMzRhYjY5YTFhNjMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "long_description": "Beth Harmon rises as a chess prodigy, navigating fame, addiction, and personal relationships in her journey to greatness."
   },
   {
     "id": 36,
@@ -393,7 +428,8 @@
     "type": "Series",
     "genre": ["sci-fi", "adventure"],
     "year": 2019,
-    "poster": "https://m.media-amazon.com/images/I/518cyoMPU8L._AC_UF894,1000_QL80_.jpg"
+    "poster": "https://m.media-amazon.com/images/I/518cyoMPU8L._AC_UF894,1000_QL80_.jpg",
+    "long_description": "A Mandalorian bounty hunter navigates the galaxy while protecting a mysterious child, forming bonds and facing powerful enemies."
   },
   {
     "id": 37,
@@ -404,7 +440,8 @@
     "type": "Series",
     "genre": ["sci-fi", "fantasy", "action"],
     "year": 2021,
-    "poster": "https://cdn.marvel.com/content/1x/online_9.jpg"
+    "poster": "https://cdn.marvel.com/content/1x/online_9.jpg",
+    "long_description": "Loki navigates the multiverse, confronting alternate versions of himself and challenging the timelines controlled by the TVA."
   },
   {
     "id": 38,
@@ -415,7 +452,8 @@
     "type": "Series",
     "genre": ["crime", "drama"],
     "year": 2015,
-    "poster": "https://cdn11.bigcommerce.com/s-yzgoj/images/stencil/1280x1280/products/2928353/5933238/MOVEB91855__44604.1679580449.jpg?c=2"
+    "poster": "https://cdn11.bigcommerce.com/s-yzgoj/images/stencil/1280x1280/products/2928353/5933238/MOVEB91855__44604.1679580449.jpg?c=2",
+    "long_description": "Jimmy McGill transforms from a struggling lawyer into the cunning and morally flexible Saul Goodman, navigating crime and legal battles."
   },
   {
     "id": 39,
@@ -426,7 +464,8 @@
     "type": "Series",
     "genre": ["drama"],
     "year": 2022,
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScahyrec3T4PN8soWIsuyx11iMrq1UAyHBOw&s"
+    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScahyrec3T4PN8soWIsuyx11iMrq1UAyHBOw&s",
+    "long_description": "Carmen returns home to run her family's sandwich shop, facing high-pressure challenges while rebuilding personal and professional life."
   },
   {
     "id": 40,
@@ -437,6 +476,7 @@
     "type": "Series",
     "genre": ["sci-fi", "drama", "mystery"],
     "year": 2022,
-    "poster": "https://m.media-amazon.com/images/M/MV5BZDliZTQwZDgtYTIyYy00NWU0LWI1ZmItNjM1ZjkzYWQ0NWFkXkEyXkFqcGc@._V1_.jpg"
+    "poster": "https://m.media-amazon.com/images/M/MV5BZDliZTQwZDgtYTIyYy00NWU0LWI1ZmItNjM1ZjkzYWQ0NWFkXkEyXkFqcGc@._V1_.jpg",
+    "long_description": "Employees at Lumon Industries undergo a procedure separating work and personal memories, revealing mysteries and ethical dilemmas."
   }
 ]
