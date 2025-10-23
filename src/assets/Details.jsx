@@ -18,44 +18,43 @@ function Details({ all }) {
 
   return (
     <>
-    <Header />
-    <div className="back" onClick={ () => {
-        navigate(-1);
-    }}>
-        < FontAwesomeIcon icon={faChevronLeft}/>
-    </div>
-    <div className="nay">
+      <Header />
+      <div
+        className="back"
+        onClick={() => {
+          navigate(-1);
+        }}
+      >
+        <FontAwesomeIcon icon={faChevronLeft} />
+      </div>
+      <div className="nay">
         <div className="name">{current?.name}</div>
-      <div className="year">({current?.year})</div>
-    </div>
-    <div className="genre">
-        {
-            current.genre?.map(g => {
-                return <div className="genreDiv">
-                {g}
-            </div>
-            })
-        }
-    </div>
-    <div className="descText">
+        <div className="year">({current?.year})</div>
+      </div>
+      <div className="genre">
+        {current.genre?.map((g) => {
+          return <div className="genreDiv">{g}</div>;
+        })}
+      </div>
+      <div className="descText">
         Description:
-        <div className="desc">
-         {current?.long_description}
-        </div>
-        </div>     
-        <div className="categoryDiv">
-            Category: 
-            <div className="category">
-                {current?.type}</div></div> 
-                <div className="longetivity">
-                    longetivity: {current?.longevity}h
-                </div>
-                <div className="rating">
-                    <FontAwesomeIcon icon={faStar} className="star"/>
-                    {current?.stars}
-                </div>
-                <div className="hr"></div>
-                <img src={current?.poster} className="image" alt="Poster"/>
+        <div className="desc">{current?.long_description}</div>
+      </div>
+      <div className="categoryDiv">
+        Category:
+        <div className="category">{current?.type}</div>
+      </div>
+      <div className="longetivity">longetivity: {current?.longevity}h</div>
+      <div className="rating">
+        <FontAwesomeIcon icon={faStar} className="star" />
+        {current?.stars}
+      </div>
+      <div className="hr"></div>
+      <img src={current?.poster} className="image" alt="Poster" />
+      <div className="buttonsWaT">
+        <div className="trailer">Trailer</div>
+        <button className="watch">Watch Now</button>
+      </div>
     </>
   );
 }
